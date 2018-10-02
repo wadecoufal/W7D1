@@ -6,7 +6,10 @@ export const receiveTodos = (todos) => ({
   todos
 });
 
-export const receiveTodo = (todo) => ({
+export const receiveTodo = (todo) => {
+  debugger;
+  return {
   type: RECEIVE_TODO,
   todo
-});
+};
+};
